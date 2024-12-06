@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\NewsResource\Pages;
+namespace App\Filament\Resources\KripeResource\Pages;
 
-use App\Filament\Resources\NewsResource;
+use App\Filament\Resources\KripeResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
-class ListNews extends ListRecords
+class ListKripes extends ListRecords
 {
-    protected static string $resource = NewsResource::class;
+    protected static string $resource = KripeResource::class;
 
     protected function getHeaderActions(): array
     {
